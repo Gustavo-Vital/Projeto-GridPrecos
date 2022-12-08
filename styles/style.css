@@ -1,0 +1,320 @@
+.dentist-clinic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dentist-clinic__span {
+    font-size: 1.8rem;
+    color: var(--white-text);
+    font-family: 'Poppins',Medium;
+    margin-left: 2.3rem;
+   ;
+    
+}
+
+.dentist-clinic__description-tittle {
+    font-size: 1.8rem;
+    font-family: 'Poppins',Medium;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-left: 23px;
+    margin-top: 7px;
+    
+}
+
+.dentist-clinic__image {
+    align-self: center;
+    max-width: 100%;
+    margin-top: 48px;
+    width: 75%;
+    
+}
+
+.dentist-clinic__button {
+    font-size: 10px;
+    border: 2px solid;
+    border-radius: 6px;
+   margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none; 
+    color: white;
+    font-size: 'Poppins',Medium;
+    background-color: var(--primary-color);
+    margin-left: 23px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tag {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--white-text);
+}
+
+.features__image {
+    max-width: 100%;
+    width: 75%;
+    align-self: center;
+    margin-top: 54px;
+    margin-bottom: 80px;
+}
+
+.features__description-tittle {
+    font-size: 20px;
+    color: var(--primary-color);
+    text-align: center;
+    font-family: 'Poppins',Medium;
+    margin-top: 34px;
+    font-weight: bold;
+    
+}
+
+.features__description-content {
+    font-size: 1.4rem;
+    margin-top: 34px;
+    color: var(--dark-text);
+    text-align: center;
+    font-family: 'Poppins',Medium;
+}
+
+.features__description-content2 {
+    font-size: 1.4rem;
+    color: var(--dark-text);
+    text-align: center;
+    font-family: 'Poppins',Medium;
+} 
+
+@media(min-width:768px) {
+    
+
+    .tag {
+        display: flex;
+        margin-left: 120px;
+    }
+    
+    .features__image {
+        width: 40%;
+        margin-left: 440px;
+    }
+
+    .features__description-tittle {
+       margin-right: 450px;
+        margin-left: 120px;
+        text-align: start;
+    }
+
+    .features__description-content {
+        display: flex;
+        margin-left: 120px;
+        text-align: start;
+    }
+    
+    .features__description-content2 {
+        margin-left: 120px;
+        text-align: start;
+        margin-bottom: 120px;
+    }
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 151px;
+}
+
+
+.footer__tag {
+    font-size: 14px;
+    margin-top: 36px;
+    font-family: 'Poppins',Medium;
+    color: var(--white-text);
+    margin-bottom: 35px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0B498F;
+    --white-text: #C4C4C4;
+    --dark-text: #00000080;
+
+    font-size: 62.5%   /* 1rem = 100% de tamanho = 16px / 1rem = 62.5% = 10px => 1.6rem = 16px */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex ; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.header__button {
+    font-size: 9px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none; 
+    color: var(--primary-color);
+    font-size: 'Poppins',Medium;
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between
+    }
+        
+    .header__button {
+        font-size: 14px;
+        margin-right: 40px;
+
+    }
+
+    .header__image {
+        margin-left: 50px;
+    }
+
+}
+
+.presentation_container {
+    margin-top: 4rem ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.presentation__description-tittle {
+    text-align: center;
+    font-size: 20px ;
+    color: var(--primary-color);
+    font-family: 'Poppins',Medium;
+    margin-top: 6.8rem;
+    font-weight: bold;
+}
+
+.presentation__description-content {
+    text-align: center;
+    font-size: 1.4rem ;
+    color: var(--dark-color);
+    font-family: 'Poppins',Medium;
+    margin-top: 2.0rem;
+    margin-bottom: 50px;
+}
+
+.presentation__contact-button {
+    font-size: 1.4rem;
+    margin-left: 90px ;
+    text-decoration: none;
+    background-color:var(--primary-color);
+    border-radius: 7px;
+    padding: 1.8rem 4rem;
+    color: white;
+    
+}
+
+.presentation__image {
+    margin-top: 4rem;
+    align-self: center;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+    .presentation_container {
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        
+        
+}
+
+.presentation__image {
+    margin-left: 100px;
+    align-self: flex-start;
+    width: 40%;
+}
+
+}
+    
+@media(min-width:768px) {
+    .presentation__contact-button {
+        flex-direction: column;
+        
+    }
+}
+
+@media (min-width:768px) {
+    .presentation__description-tittle  {
+        font-size: 25px;
+        text-align: start;
+        margin-left:60px;
+    }
+
+    .presentation__description-content {
+        text-align: center;
+        margin-left: 20px;
+        
+    }
+}
+
+.tag2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--white-text);
+    margin-left: 148px;
+    font-family: 'Poppins',Medium;
+}
+
+.services__description-tittle {
+    text-align: center;
+    font-size: 2.0rem;
+    color: black ;
+    font-weight: bold;
+    margin-top: 2.6rem;
+    font-family: 'Poppins',Medium;
+    margin-bottom: 54px;
+}
+
+.services__info {
+    font-size: 1.8rem;
+    font-family: 'Poppins',Medium;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.services__item {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+@media(min-width:768px) {
+    .tag2 {
+        display: flex;
+        justify-content: center;
+        margin-right: 130px;
+        
+    }
+
+}
+
+
